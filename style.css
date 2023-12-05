@@ -5,7 +5,7 @@ body{
 }
 
 .wrapper{
-    background: url(images/school.jpeg)
+    background: url('./school.jpeg')
     no-repeat center center;
     min-height: 30rem;
 }
@@ -17,6 +17,11 @@ nav{
     line-height: 80px;
 }
 
+nav img {
+    width: 80px;
+    height: 80px;
+    margin-top: 0px;
+}
 nav ul{
     float: right;
     margin: 0;
